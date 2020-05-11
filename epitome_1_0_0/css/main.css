@@ -1910,7 +1910,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 792px;
-  background-color: #050505;
+  background-color: #000000;
 }
 
 .intro-content {
@@ -1927,7 +1927,9 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/hero-pic.jpg);
+  background-image: url(../images/dark.jpg);
+  border-radius: 2%;
+
   background-size: cover;
   position: absolute;
   top: 20%;
@@ -1948,7 +1950,6 @@ input::-moz-focus-inner {
 }
 
 .intro-grid {
-  background-image: url(../images/pattern-dot-grid.svg);
   background-size: 24px 24px;
   opacity: .15;
   position: absolute;
