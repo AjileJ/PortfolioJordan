@@ -1910,7 +1910,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 792px;
-  background-color: #050505;
+  background-color: #000000;
 }
 
 .intro-content {
@@ -1927,7 +1927,9 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/hero-pic.jpg);
+  background-image: url(../images/dark.jpg);
+  border-radius: 2%;
+
   background-size: cover;
   position: absolute;
   top: 20%;
@@ -1948,7 +1950,6 @@ input::-moz-focus-inner {
 }
 
 .intro-grid {
-  background-image: url(../images/pattern-dot-grid.svg);
   background-size: 24px 24px;
   opacity: .15;
   position: absolute;
@@ -1967,7 +1968,7 @@ input::-moz-focus-inner {
 
 .intro-text h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 2.4rem;
+  font-size: 4rem;
   font-weight: 500;
   line-height: 1.333;
   color: #cf1767;
@@ -2018,7 +2019,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1400px) {
   .intro-text h3 {
-    font-size: 2.2rem;
+    font-size: 4rem;
   }
 
   .intro-text h1 {
@@ -2033,7 +2034,7 @@ input::-moz-focus-inner {
   }
 
   .intro-text h3 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .intro-text h1 {
@@ -2814,6 +2815,9 @@ input::-moz-focus-inner {
 
 .item-folio__thumb img {
   vertical-align: bottom;
+}
+.mypic {
+  border-radius: 50%;
 }
 
 .item-folio__thumb .item-folio__project-link {
