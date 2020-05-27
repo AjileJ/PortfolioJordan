@@ -2819,6 +2819,16 @@ input::-moz-focus-inner {
 .mypic {
   border-radius: 50%;
 }
+@media screen and (max-width:702px){
+  .mypic {
+    display: none
+  }
+}
+@media screen and (max-width:702px){
+  .mypic-container {
+    display: none
+  }
+}
 
 .item-folio__thumb .item-folio__project-link {
   display: block;
